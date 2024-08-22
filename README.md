@@ -1,2 +1,2 @@
-# C_PISCINE
-42 Piscine
+# 42_Piscine
+42 Discovery Pisicne & C Piscine
