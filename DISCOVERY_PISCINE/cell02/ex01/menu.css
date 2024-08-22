@@ -1,0 +1,23 @@
+body, select {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du label pour plus de lisibilité */
+label {
+    margin-right: 10px;
+}
+
+/* Style du menu déroulant */
+select {
+    padding: 5px; /* Ajoute un peu d'espace à l'intérieur du select */
+    font-size: 16px; /* Taille de police */
+    border: 1px solid #ff0000; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+/* Style des options du menu déroulant */
+option {
+    background-color: #ff0000; /* Fond blanc */
+    color: #ff0000; /* Texte noir */
+}
