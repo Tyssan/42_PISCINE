@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 20:21:08 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/03 12:59:18 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:50:22 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
@@ -36,6 +35,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	return (i + j);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	unsigned int	size = 0;

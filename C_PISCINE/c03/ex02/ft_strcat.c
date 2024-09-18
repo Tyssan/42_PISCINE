@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 12:25:31 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/03 12:57:56 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:50:11 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 char	*ft_strcat(char *dest, char *src)
 {
@@ -29,6 +28,7 @@ char	*ft_strcat(char *dest, char *src)
 	return (dest);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	char	dest[727] = "premiere phrase_";

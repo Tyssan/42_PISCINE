@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 19:01:16 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/04 19:01:18 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:50:40 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
-#include <string.h>
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
@@ -24,6 +22,8 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	return (s1[i] - s2[i]);
 }
 /*
+#include <stdio.h>
+#include <string.h>
 int	main(void)
 {
     char s1[] = "Test1";

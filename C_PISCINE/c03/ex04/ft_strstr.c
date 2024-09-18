@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 19:16:29 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/03 12:59:06 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:50:16 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -34,6 +33,7 @@ char	*ft_strstr(char *str, char *to_find)
 	return (0);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	char	str[] = "correct bonjour correcteur ca va?";

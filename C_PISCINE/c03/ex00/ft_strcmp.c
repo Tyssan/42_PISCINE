@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/29 19:12:58 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/03 12:57:34 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:50:55 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -25,6 +24,7 @@ int	ft_strcmp(char *s1, char *s2)
 	return (s1[i] - s2[i]);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	char	s1[] = "iie";

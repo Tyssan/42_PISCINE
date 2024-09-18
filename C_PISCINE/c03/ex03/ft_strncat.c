@@ -6,10 +6,9 @@
 /*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 14:39:55 by tbrunier          #+#    #+#             */
-/*   Updated: 2024/08/22 10:54:07 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:50:10 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
@@ -34,6 +33,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	return (dest);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	char			dest[727] = "premiere phrase_";

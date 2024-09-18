@@ -6,12 +6,11 @@
 /*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 19:21:59 by tbrunier          #+#    #+#             */
-/*   Updated: 2024/08/22 10:57:53 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 18:03:02 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
 int	*ft_range(int min, int max)
 {
@@ -30,8 +29,9 @@ int	*ft_range(int min, int max)
 	}
 	return (result);
 }
-
-/*int	main(void)
+/*
+#include <stdio.h>
+int	main(void)
 {
 	int	min;
 	int	max;

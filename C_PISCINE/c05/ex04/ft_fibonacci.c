@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fibonacci.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 17:28:33 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/06 17:28:35 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:55:10 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 int	ft_fibonacci(int index)
 {
@@ -21,6 +20,7 @@ int	ft_fibonacci(int index)
 		return (ft_fibonacci(index - 1) + ft_fibonacci(index - 2));
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	int	index;

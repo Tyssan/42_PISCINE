@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ultimate_range.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 17:51:55 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/13 17:51:56 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 19:42:00 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <stdlib.h>
-#include <stdio.h>
 #include <string.h>
 
 int	*the_range(int min, int max)
@@ -39,6 +39,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	return (max - min);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	int	min;

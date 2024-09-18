@@ -6,10 +6,9 @@
 /*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/07 15:13:51 by tbrunier          #+#    #+#             */
-/*   Updated: 2024/08/22 10:56:16 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:55:23 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 int	ft_sqrt(int nb)
 {
@@ -30,8 +29,9 @@ int	ft_sqrt(int nb)
 		return (sqrt);
 	return (0);
 }
-
-/*int	main(void)
+/*
+#include <stdio.h>
+int	main(void)
 {
 	int	racinede;
 

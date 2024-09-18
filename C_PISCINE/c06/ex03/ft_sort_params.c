@@ -6,10 +6,11 @@
 /*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 17:05:26 by tbrunier          #+#    #+#             */
-/*   Updated: 2024/08/22 10:57:14 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:56:55 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {

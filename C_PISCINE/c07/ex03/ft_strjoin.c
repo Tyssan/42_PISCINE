@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 21:08:01 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/13 21:08:04 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 19:42:41 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <stdlib.h>
-#include <stdio.h>
 #include <string.h>
 
 int	ft_strlen(char *str)
@@ -77,7 +77,8 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	}
 	return (result);
 }
-
+/*
+#include <stdio.h>
 int	main(int argc, char *argv[])
 {
 	char	*sep;
@@ -99,4 +100,4 @@ int	main(int argc, char *argv[])
 	printf("result: %s\n", result);
 	free(result);
 	return (0);
-}
+}*/

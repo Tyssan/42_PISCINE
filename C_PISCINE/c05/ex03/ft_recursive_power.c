@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 15:36:51 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/06 15:36:53 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:55:02 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 int	ft_recursive_power(int nb, int power)
 {
@@ -20,6 +19,7 @@ int	ft_recursive_power(int nb, int power)
 	return (nb * ft_recursive_power(nb, power - 1));
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	int	nb;

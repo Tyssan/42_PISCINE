@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_params.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/11 16:24:05 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/11 16:24:15 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:56:08 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <unistd.h>
 
 int	ft_strlen(char *str)

@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/05 21:03:44 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/05 21:03:54 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:54:51 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 int	ft_recursive_factorial(int nb)
 {
@@ -22,6 +21,7 @@ int	ft_recursive_factorial(int nb)
 	return (nb * ft_recursive_factorial(nb - 1));
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	int	nb;

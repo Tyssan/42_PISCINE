@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbrunier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 18:16:23 by tbrunier          #+#    #+#             */
-/*   Updated: 2023/09/02 18:23:44 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:51:16 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -21,6 +20,7 @@ int	ft_strlen(char *str)
 	return (i);
 }
 /*
+#include <stdio.h>
 int	main(void)
 {
 	char	str[] = "salusava";

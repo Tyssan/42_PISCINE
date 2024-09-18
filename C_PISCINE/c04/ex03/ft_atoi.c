@@ -6,12 +6,9 @@
 /*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 16:57:10 by tbrunier          #+#    #+#             */
-/*   Updated: 2024/08/22 10:54:55 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:53:38 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <stdlib.h>
 
 int	ft_atoi(char *str)
 {
@@ -37,8 +34,10 @@ int	ft_atoi(char *str)
 	}
 	return (nb * parity);
 }
-
-/*int	main(void)
+/*
+#include <stdio.h>
+#include <stdlib.h>
+int	main(void)
 {
 	printf("42:%d\n", ft_atoi("  \n  42t4457"));
 	printf("-42:%d\n", ft_atoi(" -42sfs:f545"));
@@ -59,4 +58,4 @@ int	ft_atoi(char *str)
 	printf("-100:%d\n", atoi("-100"));
 	printf("min:%d\n", atoi("-2147483648"));
 	printf("max:%d\n", atoi("2147483647"));
-}/*
+}*/

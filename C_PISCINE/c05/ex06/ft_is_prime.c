@@ -6,10 +6,9 @@
 /*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/07 18:03:13 by tbrunier          #+#    #+#             */
-/*   Updated: 2024/08/22 10:56:28 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:55:38 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 int	ft_is_prime(int nb)
 {
@@ -26,8 +25,8 @@ int	ft_is_prime(int nb)
 	}
 	return (1);
 }
-
-/*int	main(void)
+/*
+#include <stdio.h>int	main(void)
 {
 	int	nb;
 

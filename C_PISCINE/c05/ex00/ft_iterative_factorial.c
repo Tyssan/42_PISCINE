@@ -6,10 +6,9 @@
 /*   By: tbrunier <tbrunier@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/05 18:53:45 by tbrunier          #+#    #+#             */
-/*   Updated: 2024/08/22 10:55:59 by tbrunier         ###   ########.fr       */
+/*   Updated: 2024/09/18 17:53:58 by tbrunier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 int	ft_iterative_factorial(int nb)
 {
@@ -29,8 +28,9 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (result);
 }
-
-/*int	main(void)
+/*
+#include <stdio.h>
+int	main(void)
 {
 	int	nb;
 
